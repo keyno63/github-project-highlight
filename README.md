@@ -29,6 +29,15 @@ Change Settings in js code. (e.g. change `TOKEN` value to `github token` you got
 Access to Your Github Project.
 Then, the card will be highlighted if you updated it of the projects.
 
+## Limitations of Function.
+
+This tool can not reflect status while browsing the project automatically. (It is commented out.)  
+If we observe the updated status used by `MutationObserver`,  
+it will create a lot of request (probably, GitHub Project frequently update html using `include-fragment-element`).  
+Then, this tool does not observe the dom.
+
+If you want to use this function, on your own responsibility.  
+
 ## LICENSE
 
 This repository is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) License.  
