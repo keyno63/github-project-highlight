@@ -1,5 +1,7 @@
 # github-project-highlight
 
+[![Node CI](https://github.com/keyno63/github-project-highlight/actions/workflows/ci.yaml/badge.svg)](https://github.com/keyno63/github-project-highlight/actions/workflows/ci.yaml)
+
 The `github-project-highlight` is UserScript tools.  
 In the case of using GitHub project,  
 this tool highlights the cards which was updated recently.
