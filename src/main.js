@@ -31,7 +31,6 @@ const commonConfig = {
 if (commonConfig.observe) {
     const observer = new MutationObserver((mutations) => {
         mutations.forEach((_mutation) => {
-            console.log("update")
             main()
         })
     })
@@ -54,7 +53,6 @@ function main() {
             $('article').each((_i, e) => {
                 const cardId = $(e).attr('data-card-id')
                 const url = `${API_BASE_URL}${cardId}`
-                console.log("request")
                 fetch(url, {
                     headers: {
                         'Authorization': `token  + commonConfig.token`
