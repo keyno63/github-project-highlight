@@ -23,8 +23,6 @@ const commonConfig = {
     observe: false,
 }
 
-
-
 // comment out `MutationObserver` function.
 // because of exist too many API call.
 /*
