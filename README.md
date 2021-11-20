@@ -1,13 +1,13 @@
 # github-project-highlight
 
 The `github-project-highlight` is UserScript tools.  
-In the case of using github project,  
+In the case of using GitHub project,  
 this tool highlights the cards which was updated recently.
 
 ## Motivation
 
 I wanted to know the card is updated, moved to column recently.  
-In the case of using github project like daily scrum meeting,  
+In the case of using GitHub project like daily scrum meeting,  
 it has a lot of cards, and cards was changed status from members.  
 It is difficult to check status of the cards and projects as soon as possible.
 The purpose of this tool is to resolve the problem.
