@@ -14,9 +14,11 @@ The purpose of this tool is to resolve the problem.
 
 ## Usage
 
-Create Github API token.
+At the beginning, create [GitHub API token](https://github.com/settings/tokens).  
+This tool to access to [GitHub API](https://docs.github.com/en/rest/reference/projects#get-a-project-card) for getting status of GitHub project cards.
 
-To use this script, Install below to your browser:
+In the next place, set up your browser to use this script.  
+Install below:
 - Firefox: [greasemonkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)
 - Chrome: [tampermonkey](https://www.tampermonkey.net/)
 
