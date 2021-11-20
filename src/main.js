@@ -55,7 +55,7 @@ function main() {
                 const url = `${API_BASE_URL}${cardId}`
                 fetch(url, {
                     headers: {
-                        'Authorization': `token  + commonConfig.token`
+                        'Authorization': `token ${commonConfig.token}`
                     }
                 })
                     .then(response => response.json())
