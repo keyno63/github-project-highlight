@@ -26,6 +26,6 @@ jobs:
         with:
           node-version: 16.x
       - name: npm lint
-        run: npm lint
+        run: npm run lint
         env:
           CI: true
